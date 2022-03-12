@@ -1,0 +1,117 @@
+.gridOne {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    font-size: 26px;
+}
+
+.gridOne p {
+    color: black;
+}
+
+.gridOne p:nth-child(2) {
+    color: blue;
+}
+
+/*grid two*/
+.gridTwo {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.gridTwo > .text {
+    background-color: red;
+}
+
+.gridTwo > .is {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.gridTwo .awesome {
+    background-color: yellow;    
+}
+
+/*grid three*/
+.gridThree {
+    display: grid;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    grid-template-rows: 1fr 3fr;
+    margin-top: 20px;
+    background-color: orange ;
+}
+
+.text {
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.img-wrapper {
+    object-fit: cover;
+}
+
+.img-wrapper img {
+    width: 500px;
+    height: 225px;
+}
+
+/*gridFour*/
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.gridFour > .title {
+    font-size: 30px;
+}
+
+.gridFour > #content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+}
+
+/*gridFive*/
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    margin-top: 20px;
+    background-color: burlywood;
+}
+
+.gridFive > .img-title {
+    font-size: 30px;
+}
+
+.gridFive > .gridfive-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive > .gridfive-images > img {
+    width: 200px;
+    height: 200px;
+}
+
+/*gridSix*/
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    background-color: lightgray;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 800
+}
